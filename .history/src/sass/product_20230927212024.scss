@@ -1,0 +1,12 @@
+.products{
+    width: 1860px;
+    max-width: 100%;
+    min-height: 1030px;
+}
+
+.product{
+    max-width: 90%;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+}   

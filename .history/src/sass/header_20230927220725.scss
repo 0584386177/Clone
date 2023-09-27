@@ -1,0 +1,141 @@
+
+
+  .header{
+    width: 100%;
+    max-width: 100%;
+    min-height: 400px;
+    background-image: url(/assets/images/bkg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+  .header nav{
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+  }
+
+  .header--top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 13px;
+  }
+
+.header--top_logo{
+  width: 176px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.logo--image{
+  width: 32px;
+  height: 44px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.logo--title{
+  // color: $primary--color;
+  font-size: 24px;
+  font-weight: 600;
+  text-shadow: 0 3px 4px rgba(0,0,0,0.4);
+}
+.header--top_menu{
+  width: 470px;
+}
+.menu--items{
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+.menu--item{
+
+}
+
+.menu--item a{
+  text-decoration: none;
+  // color: $secondary--color ;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.menu--item.active{
+  border-bottom: 3px solid greenyellow;
+}
+
+.header--top_features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  .feature--cart,.feature--search{
+    object-fit: cover;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  .feature--sigin{
+    // color: $secondary--color;
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-size: 600;
+    text-decoration: none;
+  }
+}
+
+.header--footer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.header--footer_top{
+  font-size: 48px;
+  // color: $primary--color;
+  font-weight: 600;
+}
+.header--footer_bottom{
+ text-align: center;
+}
+
+.header--footer_bottom ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+  margin-top: 30px ;
+
+   li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    // color: $secondary--color;
+  }
+  li a.active{
+    // color: $primary--color;
+  }
+}
+
+.title-large{
+  width: 100%;
+  text-align: center;
+  margin: 115px 0px 85px 0px;
+  font-size: 64px;
+  font-weight: 600;
+  // color: $primary--color;
+
+  h1{
+    -webkit-text-stroke: 3x black;
+
+  }
+}
