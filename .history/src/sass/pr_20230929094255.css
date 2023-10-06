@@ -11,6 +11,7 @@
   font-family: sans-serif;
 }
 
+img,
 picture,
 svg,
 video {
@@ -379,20 +380,18 @@ body {
 }
 
 .recent--project {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
+  justify-content: space-evenly;
+  align-items: stretch;
 }
-
-.recent--project_item {
+.recent--project .recent--project_item {
   width: 370px;
   height: 300px;
 }
-
-.recent--project_item .item--image {
+.recent--project .recent--project_item .recent--project_item img{
   width: 370px;
-  height: 300px;
+  height: 35 0px;
 }
 
 /*# sourceMappingURL=pr.css.map */

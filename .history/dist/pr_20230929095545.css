@@ -382,7 +382,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
 
 .recent--project_item {

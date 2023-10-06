@@ -11,6 +11,7 @@
   font-family: sans-serif;
 }
 
+img,
 picture,
 svg,
 video {
@@ -118,6 +119,7 @@ body {
   align-items: center;
   gap: 25px;
 }
+
 .header--top_features .feature--cart, .header--top_features .feature--search {
   object-fit: cover;
   flex-shrink: 0;
@@ -125,6 +127,7 @@ body {
   height: 24px;
   cursor: pointer;
 }
+
 .header--top_features .feature--sigin {
   color: #7B88A8;
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
@@ -158,12 +161,14 @@ body {
   gap: 10px;
   margin-top: 30px;
 }
+
 .header--footer_bottom ul li a {
   text-decoration: none;
   font-size: 15px;
   font-weight: 600;
   color: #7B88A8;
 }
+
 .header--footer_bottom ul li a.active {
   color: #2D3958;
 }
@@ -176,6 +181,7 @@ body {
   font-weight: 600;
   color: #2D3958;
 }
+
 .title-large h1 {
   -webkit-text-stroke: 3x black;
 }
@@ -294,6 +300,7 @@ body {
   margin: 0 auto;
   margin-top: 30px;
 }
+
 .slide--avatar img {
   width: 70px;
   height: 70px;
@@ -319,6 +326,7 @@ body {
   width: 300px;
   margin: 0 auto;
 }
+
 .slide--post p {
   font-size: 18px;
   color: #7B88A8;
@@ -334,6 +342,7 @@ body {
   gap: 1rem;
   font-size: 3rem;
 }
+
 .rate--icon * {
   color: #2D3958;
   cursor: pointer;
@@ -358,16 +367,19 @@ body {
   align-items: center;
   margin-bottom: 75px;
 }
+
 .recent--top .recent--top_title {
   font-size: 48px;
   color: #2D3958;
   font-weight: 600;
 }
+
 .recent--top .recent--top_icon {
   display: flex;
   gap: 20px;
   font-size: 30px;
 }
+
 .recent--top .recent--top_icon * {
   padding: 5px 12px;
   border-radius: 20px;
@@ -379,20 +391,22 @@ body {
 }
 
 .recent--project {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
+  justify-content: space-evenly;
+  align-items: stretch;
 }
 
-.recent--project_item {
+.recent--project .recent--project_item {
   width: 370px;
   height: 300px;
 }
 
-.recent--project_item .item--image {
+.recent--project .recent--project_item .recent--project_item img {
   width: 370px;
-  height: 300px;
+  height: 350px;
 }
+
+
 
 /*# sourceMappingURL=pr.css.map */

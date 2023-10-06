@@ -11,6 +11,7 @@
   font-family: sans-serif;
 }
 
+img,
 picture,
 svg,
 video {
@@ -375,24 +376,22 @@ body {
 }
 
 .recent--top_icon *.active {
-  background-color: #4F77FF;
+  background-color: #77F;
 }
 
 .recent--project {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
+  justify-content: space-evenly;
+  align-items: stretch;
 }
-
-.recent--project_item {
+.recent--project .recent--project_item {
   width: 370px;
   height: 300px;
 }
-
-.recent--project_item .item--image {
+.recent--project .recent--project_item .recent--project_item img{
   width: 370px;
-  height: 300px;
+  height: 350px;
 }
 
 /*# sourceMappingURL=pr.css.map */
