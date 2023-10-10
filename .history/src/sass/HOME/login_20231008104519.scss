@@ -1,0 +1,22 @@
+.login {
+  &__overlay--background {
+    background-color: rgba(255, 190, 118, 1);
+  }
+
+  &__main {
+    margin: auto;
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    z-index: 55;
+  }
+
+  &.login__image {
+    width: 50%;
+    height: 100%;
+  }
+  &__img {
+    width: 100%;
+  }
+}
