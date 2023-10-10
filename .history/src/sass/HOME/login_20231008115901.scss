@@ -1,0 +1,84 @@
+.login {
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255, 190, 118, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__main {
+    width: 75%;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+  }
+  //   SECTION-LOGIN
+  &__section {
+    width: 50%;
+    padding: 20px;
+  }
+  //   logo
+  &__section-logo {
+    text-align: center;
+    margin-bottom: 60px;
+    img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+    }
+  }
+
+  //   register
+  &__section-register {
+  }
+  &__section-title {
+    font-weight: 500;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  &__section-email-phone {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(96 88 88);
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  &__section-email {
+    padding: 8px 30px;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    display: inline-block;
+    &:hover {
+      border-bottom: 2px solid #000;
+      color: #000;
+    }
+  }
+  &__section-phone {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 30px;
+  }
+  &__section-fill-information {
+    display: flex;
+    flex-direction: column;
+    max-width: 236px;
+    margin: 0 auto;
+  }
+  //   END
+
+  //   IMAGE
+  &__image {
+    width: 50%;
+    height: 100%;
+    &-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
