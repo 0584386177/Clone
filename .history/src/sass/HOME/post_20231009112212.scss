@@ -1,0 +1,32 @@
+@import "_var";
+.post {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.post--header {
+  width: 100%;
+  height: 100px;
+  color: $primary--color;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.post--content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+ 
+&_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    
+}   
+}
