@@ -125,7 +125,7 @@ body {
   height: 24px;
   cursor: pointer;
 }
-.header--top_features .feature--sigin {
+.header--top_features .feature--signin {
   color: #7B88A8;
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
   cursor: pointer;
